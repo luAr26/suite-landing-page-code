@@ -1,4 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+/**
+ * @format
+ * @type {import('tailwindcss').Config}
+ */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,10 +11,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "dark-blue": "#172339",
+        grey: "#49566D",
+        cream: "#F3EDE7",
+        "cream-white": "#FAF8F6",
+        heliotrope: "#A060FF",
+        "medium-purple": "#CB30E3",
+        "texas-rose": "#FFA84E",
       },
     },
   },

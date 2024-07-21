@@ -1,9 +1,12 @@
 /** @format */
 
-import { Inter } from "next/font/google";
+import { Epilogue } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const epilogue = Epilogue({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata = {
   title: "Suite landing page | Frontend Mentor",
@@ -15,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head></head>
-      <body className={inter.className}>{children}</body>
+      <body className={epilogue.className}>{children}</body>
     </html>
   );
 }
