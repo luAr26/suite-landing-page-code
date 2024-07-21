@@ -55,7 +55,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+- [React](https://react.dev/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind](https://tailwindcss.com/) - For styles
 
