@@ -95,7 +95,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- <a href="https://www.youtube.com/watch?v=Kn2SKUOaoT4" target="_blank">Learn PostCSS In 15 Minutes</a> - This helped me understand what PostCSS is.
+- <a href="https://www.youtube.com/watch?v=Kn2SKUOaoT4" target="_blank">Learn PostCSS In 15 Minutes</a>
+
+  Main takeaways:
+
+  - [PostCSS](https://postcss.org/) is more of a transpiler (like Babel), where you write normal CSS, takes it, modifies it and make it work with older browsers or based on other plugins that you install.
+  -
 
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
