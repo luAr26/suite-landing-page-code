@@ -14,38 +14,33 @@ module.exports = {
       normal: "400",
       bold: "700",
     },
-    extend: {
-      colors: {
-        "dark-blue": "#172339",
-        grey: "#49566D",
-        cream: "#F3EDE7",
-        "cream-white": "#FAF8F6",
-        heliotrope: "#A060FF",
-        "medium-purple": "#CB30E3",
-        "texas-rose": "#FFA84E",
-      },
-      fontSize: {
-        "heading-xl": [
-          "4.5rem",
-          { lineHeight: "4.875rem", letterSpacing: "-1px" },
-        ],
-        "heading-lg": [
-          "3rem",
-          { lineHeight: "3.5rem", letterSpacing: "-0.5px" },
-        ],
-        "heading-md": [
-          "1.25rem",
-          { lineHeight: "2rem", letterSpacing: "-0.2px" },
-        ],
-        "heading-sm": [
-          "1rem",
-          { lineHeight: "1.625rem", letterSpacing: "2.5px" },
-        ],
-        quote: ["1.25rem", { lineHeight: "2.1875" }],
-        body: ["1.125rem", { lineHeight: "2rem" }],
-        footer: ["0.9375", { lineHeight: "2rem" }],
-      },
+    colors: {
+      "dark-blue": "#172339",
+      grey: "#49566D",
+      cream: "#F3EDE7",
+      "cream-white": "#FAF8F6",
+      heliotrope: "#A060FF",
+      "medium-purple": "#CB30E3",
+      "texas-rose": "#FFA84E",
     },
+    fontSize: {
+      xl: ["4.5rem", { lineHeight: "4.875rem", letterSpacing: "-1px" }],
+      lg: ["3rem", { lineHeight: "3.5rem", letterSpacing: "-0.5px" }],
+      md: ["1.25rem", { lineHeight: "2rem", letterSpacing: "-0.2px" }],
+      sm: ["1rem", { lineHeight: "1.625rem", letterSpacing: "2.5px" }],
+      quote: ["1.25rem", { lineHeight: "2.1875" }],
+      body: ["1.125rem", { lineHeight: "2rem" }],
+      footer: ["0.9375", { lineHeight: "2rem" }],
+    },
+    fontFamily: {
+      sans: ["Epilogue", "sans-serif"],
+    },
+    screens: {
+      tablet: "768px",
+      desktop: "1440px",
+    },
+
+    extend: {},
   },
   plugins: [],
 };

@@ -18,7 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head></head>
-      <body className={epilogue.className}>{children}</body>
+      <body className='h-screen font-sans bg-cream-white text-dark-blue'>
+        <div className='px-4 py-6 tablet:max-w-[689px] desktop:max-w-[1110px] m-auto'>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

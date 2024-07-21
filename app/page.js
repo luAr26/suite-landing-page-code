@@ -1,10 +1,14 @@
 /** @format */
 
+import Header from "@/app/_components/Header";
+import Hero from "@/app/_components/Hero";
+
 function Home() {
   return (
-    <div>
-      <h1 className='font-bold text-body text-dark-blue'>Hello, Next.js!</h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 }
 
