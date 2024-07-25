@@ -19,7 +19,7 @@ function Stats() {
   ];
 
   return (
-    <div className='flex flex-col gap-8 tablet:flex-row tablet:gap-0 tablet:justify-between desktop:flex-col'>
+    <div className='flex flex-col gap-8 tablet:flex-row tablet:gap-0 tablet:justify-between desktop:flex-col mt-14'>
       {stats.map(({ title, subtitle }) => (
         <Stat key={title} title={title} subtitle={subtitle} />
       ))}
