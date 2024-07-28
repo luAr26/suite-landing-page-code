@@ -1,13 +1,13 @@
 /** @format */
 
-import Image from "next/image";
-import Button from "./Button";
+import Button from "@/app/_components/Button";
+import Logo from "@/app/_components/Logo";
 
 function Header() {
   return (
-    <header className='flex items-center justify-between'>
-      <Image src='logo.svg' alt='logo' width={81} height={32} />
-      <Button buttonLabel='Request Beta Access' />
+    <header className="flex items-center justify-between">
+      <Logo />
+      <Button buttonLabel="Request Beta Access" />
     </header>
   );
 }
