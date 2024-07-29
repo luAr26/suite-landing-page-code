@@ -16,10 +16,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <head></head>
-      <body className='h-screen font-sans bg-cream-white text-dark-blue'>
-        <div className='px-4 py-6 tablet:max-w-[689px] desktop:max-w-[1110px] m-auto'>
+      <body className="relative bg-cream-white font-sans text-dark-blue">
+        <div className="absolute bottom-0 -z-20 h-[26.25rem] w-full bg-cream"></div>
+        <div className="m-auto px-4 pt-6 tablet:max-w-[689px] desktop:max-w-[1110px]">
           {children}
         </div>
       </body>

@@ -7,7 +7,7 @@ import InstagramIcon from "@/app/_components/InstagramIcon";
 
 function Footer() {
   return (
-    <footer className="relative z-0 mt-28 flex items-center justify-between bg-cream">
+    <footer className="relative z-0 mt-28 flex flex-col items-center justify-between gap-[2.0625rem] bg-cream pb-20 tablet:flex-row tablet:pb-[4.5rem]">
       <Logo />
       <p className="text-footer text-grey">&copy; Copyright - Suite</p>
       <div className="flex items-center gap-7">

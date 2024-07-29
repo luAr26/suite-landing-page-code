@@ -3,7 +3,6 @@
 import Image from "next/image";
 import jeremyImage from "@/public/image-jeremy-large@2x.webp";
 import curvedLine from "@/public/pattern-curved-line-2.svg";
-// import blur from "@/public/pattern-blur.svg";
 
 function Testimonial() {
   return (
