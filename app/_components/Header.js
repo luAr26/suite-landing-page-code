@@ -1,13 +1,16 @@
 /** @format */
 
-import Button from "@/app/_components/Button";
 import Logo from "@/app/_components/Logo";
+import Link from "next/link";
+import { buttonVariants } from "@/app/_components/Button";
 
 function Header() {
   return (
     <header className="flex items-center justify-between">
       <Logo />
-      <Button buttonLabel="Request Beta Access" />
+      <Link href="/" className={buttonVariants({ intent: "outline" })}>
+        Request Beta Access
+      </Link>
     </header>
   );
 }
