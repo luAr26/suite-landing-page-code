@@ -40,7 +40,12 @@ module.exports = {
       desktop: "1440px",
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "theme-gradient":
+          "linear-gradient(135deg, rgba(160,96,255,1) 0%, rgba(203,48,227,1) 49%, rgba(255,168,78,1) 100%)",
+      },
+    },
   },
   plugins: [],
 };

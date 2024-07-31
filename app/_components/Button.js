@@ -8,8 +8,7 @@ export const buttonVariants = cva(
     variants: {
       intent: {
         // background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49%, #FFA84E 100%);
-        primary:
-          "bg-dark-blue text-cream-white hover:bg-gradient-to-r from-[#A060FF] via-[#CB30E3] to-[#FFA84E]",
+        primary: "bg-dark-blue text-cream-white hover:bg-theme-gradient",
         outline:
           "bg-transparent text-dark-blue hover:bg-dark-blue hover:text-cream-white",
       },
