@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/luAr26/suite-landing-page-code)
-- Live Site URL: [Live Demo](https://luar26.github.io/suite-landing-page-code/)
+- Live Site URL: [Live Demo](https://suite-landing-page-code.vercel.app/)
 
 ## My process
 
