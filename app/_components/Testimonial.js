@@ -12,7 +12,7 @@ function Testimonial() {
         &nbsp;
       </div>
       {/* End dark blue background */}
-      <div className="flex flex-col items-center bg-[url('/pattern-blur.svg')] bg-[length:60%] bg-[top_25%_left_55%] bg-no-repeat desktop:flex-row desktop:gap-12 desktop:bg-left-bottom">
+      <div className="bg-pattern-blur flex flex-col items-center bg-[length:60%] bg-[top_25%_left_55%] bg-no-repeat desktop:flex-row desktop:gap-12 desktop:bg-left-bottom">
         <div className="relative h-[402px] w-[252px] desktop:h-[600px] desktop:w-[375px]">
           <Image
             src={jeremyImage}

@@ -45,6 +45,9 @@ module.exports = {
         // https://cssgradient.io/
         "theme-gradient":
           "linear-gradient(135deg, rgba(160,96,255,1) 0%, rgba(203,48,227,1) 49%, rgba(255,168,78,1) 100%)",
+        "hero-section": "url('/image-hero-portrait.png')",
+        "pattern-curved-line-1": "url('/pattern-curved-line-1.svg')",
+        "pattern-blur": "url('/pattern-blur.svg')",
       },
     },
   },

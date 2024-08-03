@@ -10,8 +10,8 @@ function Hero() {
   // Example background position: bg-[right_13vw_top_20%]
   return (
     <div className="flex flex-col desktop:flex-row desktop:items-center desktop:gap-24">
-      <section className="mt-14 bg-[length:281px_482px] bg-right-top bg-no-repeat tablet:mt-[5rem] tablet:bg-[url(/image-hero-portrait.png)] tablet:pb-[3rem] desktop:grow desktop:pb-[5rem]">
-        <h1 className="inline-block bg-[url(/pattern-curved-line-1.svg)] bg-[length:151px_19px] bg-right-top bg-no-repeat pt-5 text-[2.375rem] leading-[1.1578] tablet:mt-[2.625rem] tablet:bg-[length:231px_29px] tablet:bg-[right_1.75rem_top] tablet:pt-10 tablet:text-[4rem]">
+      <section className="tablet:bg-hero-section mt-14 bg-[length:281px_482px] bg-right-top bg-no-repeat tablet:mt-[5rem] tablet:pb-[3rem] desktop:grow desktop:pb-[5rem]">
+        <h1 className="bg-pattern-curved-line-1 inline-block bg-[length:151px_19px] bg-right-top bg-no-repeat pt-5 text-[2.375rem] leading-[1.1578] tablet:mt-[2.625rem] tablet:bg-[length:231px_29px] tablet:bg-[right_1.75rem_top] tablet:pt-10 tablet:text-[4rem]">
           A <span className="font-bold">super solution</span> <br />
           for your <span className="font-bold">business.</span>
         </h1>
